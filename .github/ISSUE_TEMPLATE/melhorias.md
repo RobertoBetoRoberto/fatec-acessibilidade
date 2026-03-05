@@ -1,15 +1,15 @@
 ---
-name: 💡 Sugestão de melhoria
-about: Sugira uma melhoria para o projeto
+name: 💡 Adicionar botões para aumentar ou diminuir a fonte
+about: Problema de leitura devido ao tamanho da fonte
 title: "[SUGESTÃO] "
 labels: enhancement
 ---
 
 ## 📌 Descrição
-Descreva sua sugestão.
+Adicionar botões para aumentar ou diminuir a fonte
 
 ## 🎯 Objetivo
-Qual problema isso resolve?
+Problema de leitura devido ao tamanho da fonte
 
 ## 📝 Informações adicionais
 Detalhes extras aqui.
@@ -17,3 +17,5 @@ Detalhes extras aqui.
 ## link para o projeto
 
 ## Membros da equipe
+Nicholas Guzzon Domingues Klaus 
+Roberto Aparecido de Oliveira Alves
