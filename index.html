@@ -242,6 +242,15 @@
       color: var(--muted);
       font-size: .95em;
     }
+    /* Minhas classes */
+    .botaomudarfonte{
+      font-size: 1.5em;
+      padding: 3px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
   </style>
 </head>
 
@@ -256,7 +265,11 @@
             <div class="tagline">manchetes, economia, tech e esportes</div>
           </div>
         </div>
-
+            <div>
+              <!-- Botão Muda Tamanho da Fonte -->
+              <button class="botaoAumentarFonte botaomudarfonte" >A+</button>
+              <button class="botaoDiminuirFonte botaomudarfonte">A-</button>
+            </div>
         <div class="nav" id="nav">
           <div class="nav-item">Início</div>
           <div class="nav-item">Brasil</div>
@@ -449,8 +462,25 @@
   </div>
 
   <script>
- 
+'use strict'
 
+const aumentar = document.querySelector('.botaoAumentarFonte');
+const diminuir = document.querySelector('.botaoDiminuirFonte');
+const root = document.documentElement;
+
+aumentar.addEventListener('click', function() {
+    let tamanho = parseInt(getComputedStyle(root).getPropertyValue('--base-font'));
+    root.style.setProperty('--base-font', (tamanho + 5) + 'px');
+});
+
+diminuir.addEventListener('click', function() {
+    let tamanho = parseInt(getComputedStyle(root).getPropertyValue('--base-font'));
+    if (tamanho > 12) {
+        root.style.setProperty('--base-font', (tamanho - 5) + 'px');
+    }
+});
+
+--base-font
   </script>
 </body>
 </html>
