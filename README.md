@@ -7,3 +7,6 @@ O código tem a finalidade de implementar dois botões respectivamente, com a fu
 !!!ALGORITIMO!!!
 
 Clicar botão -> Botão Recebe valor atual da fonte -> Valor Fonte Aumenta/Diminui 5
+
+Link:
+https://github.com/RobertoBetoRoberto/fatec-acessibilidade
